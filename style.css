@@ -1,6 +1,4 @@
-/* Note to students: Some properties are given to you to fill out,
-others you can modify as they stand, and if you have time,
-there are definitely some properties you should add!*/
+
 
     html {
       height: 100%;
@@ -8,10 +6,10 @@ there are definitely some properties you should add!*/
     }
     body {
        height: 100%;
-        background: url("mtrain4.jpg");
+       background: url("mtrain.jpg");
        background-repeat: no-repeat;
        background-size: cover;
-      
+       display: center;
     }
 
     header {
@@ -20,13 +18,13 @@ there are definitely some properties you should add!*/
         padding-left: 30px;
         border: 15px double #fff00f;
         font-size:25px ;
-         font-style: italic; 
-         font-stretch: expanded;
+        font-style: italic; 
+        font-stretch: expanded;
         display: block;
         width: 500px;
     }
     nav {
-        line-height: ;
+      
         background-color:#F2C9FE;
         width:125px;
         display: inline-block;
@@ -36,7 +34,7 @@ there are definitely some properties you should add!*/
         list-style-type: none;
     }
     a {
-        color: ;
+        color: black;
     }
     section {
         width: 516px;
@@ -46,19 +44,13 @@ there are definitely some properties you should add!*/
       width: 125px;
       display: inline-block;
       vertical-align: top;
-      background-color:;
-      font-size: ;
+      background-color:white;
+      font-size: 20px;
     }
     aside ul {
         list-style-type: none;
     }
-    footer {
-        width: 790px;
-        background-color:;
-        text-align:;
-        padding:5px;
-        display: block;
-    }
+    
     img {
         width: 415px;
         height: 215px;
@@ -66,4 +58,11 @@ there are definitely some properties you should add!*/
     h2 {
         font-size: 30px;
         color:#4F3559;
+    }
+    footer {
+        width: 790px;
+        background-color:whitesmoke;
+        text-align:center;
+        padding:5px;
+        display: center;
     }
