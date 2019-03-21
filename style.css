@@ -2,7 +2,13 @@
 *{
     text-align: center ;
   } */
+  #holder {
+    text-align: center;
+  }
   
+  .img{
+    margin: 0 auto;
+  }
   .custom {
     cursor: url(img/cursorBee.png), auto;
   } 
@@ -11,7 +17,6 @@
   ; 
 
 } 
-    
     
     html {
       height: 100%;
@@ -23,29 +28,42 @@
        background-repeat: no-repeat;
        background-size: cover;
        display: center;
+       margin:0 auto
     }
 
     header {
         background-color: #56C9FE;
-        padding:10px;
-        padding-left: 30px;
-        border: 15px double #fff00f;
+        padding:5px;
+        padding-left: 5px;
+        border: 10px  rgb(26, 23, 23);
         font-size:25px ;
         font-style: italic; 
         font-stretch: expanded;
-        display: block;
-        width: 500px;
+        display: fixed;
+        width: 1600px;
     }
     nav {
       
-        background-color:#F2C9FE;
         width:125px;
-        display: inline-block;
-        vertical-align: top;
+        display: block;
+        
     }
-    nav ul {
-        list-style-type: none;
-    }
+    nav ul{
+      float: right;
+      display:inline-block;
+  }
+
+
+  nav li:nth-child(2){
+    padding-left:10px;
+}
+
+
+nav li{
+    display: center;
+   
+    padding-right: 10px;
+}
     a {
         color: black;
     }
@@ -70,12 +88,16 @@
     }
     h2 {
         font-size: 30px;
-        color:#4F3559;
+        color:whitesmoke;
     }
-    footer {
-        width: 790px;
-        background-color:whitesmoke;
-        text-align:center;
-        padding:5px;
-        display: center;
+   
+
+    img {
+      border-radius: 60%;
+      border: 6px solid whitesmoke;
     }
+   
+    
+    
+  
+    
