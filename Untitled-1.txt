@@ -1,0 +1,13 @@
+User Storeis:
+As a Developer I want:
+
+Create clean code and styling.
+Create interactive images for the user that creates a result when mouse is pressed on product image.
+
+
+As a user or a person with sensitivities I would want:
+
+Easily view recommendations for places with accomodations.
+Easily view helpful information.
+Easily find resources.
+
