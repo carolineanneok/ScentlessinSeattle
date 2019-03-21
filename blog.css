@@ -3,9 +3,7 @@
     text-align: center ;
   } */
   
-    
-    
-    
+
     
     html {
       height: 100%;
@@ -13,7 +11,7 @@
     }
     body {
        height: 100%;
-       background: url("mtrain.jpg");
+       background: url("img/needle.jpg");
        background-repeat: no-repeat;
        background-size: cover;
        display: center;

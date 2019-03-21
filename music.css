@@ -6,16 +6,20 @@
   .custom {
     cursor: url(img/cursorBee.png), auto;
   } 
-    
+  #myElement {
+    cursor: url('${img/cursorBee}/cursorBee.jpg') 
+  ; 
+
+} 
     
     
     html {
       height: 100%;
-      background-color: rgb(183, 248, 234);
+      background-color: #C0F3E8;
     }
     body {
        height: 100%;
-       background: url("img/kerrypark2.jpg");
+       background: url("img/Paramount.jpg");
        background-repeat: no-repeat;
        background-size: cover;
        display: center;
