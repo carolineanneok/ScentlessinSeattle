@@ -3,7 +3,9 @@
     text-align: center ;
   } */
   
-    
+  .custom {
+    cursor: url(img/cursorBee.png), auto;
+  } 
     
     
     

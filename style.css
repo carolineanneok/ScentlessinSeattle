@@ -4,9 +4,13 @@
   } */
   
   .custom {
-    cursor: url(images/.custom.png), auto;
+    cursor: url(img/cursorBee.png), auto;
   } 
-    
+  #myElement {
+    cursor: url('${img/cursorBee}/cursorBee.jpg') 
+  ; 
+
+} 
     
     
     html {
