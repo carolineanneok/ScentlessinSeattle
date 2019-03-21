@@ -3,7 +3,9 @@
     text-align: center ;
   } */
   
-
+  .custom {
+    cursor: url(images/my-cursor.png), auto;
+  }
     html {
       height: 100%;
       background-color: #C0F3E8;
