@@ -3,17 +3,14 @@
     text-align: center ;
   } */
   
-    
-    
-    
-    
+
     html {
       height: 100%;
       background-color: #C0F3E8;
     }
     body {
        height: 100%;
-       background: url("img/kerrypark2.jpg");
+       background: url("img/kerrypark.jpg");
        background-repeat: no-repeat;
        background-size: cover;
        display: center;
@@ -23,7 +20,7 @@
         background-color: #56C9FE;
         padding:10px;
         padding-left: 30px;
-        border: 15px double #fff00f;
+        border: 15px double #f0efe3;
         font-size:25px ;
         font-style: italic; 
         font-stretch: expanded;
@@ -32,10 +29,10 @@
     }
     nav {
       
-        background-color:#F2C9FE;
+        background-color:rgb(213, 227, 248);
         width:125px;
         display: inline-block;
-        vertical-align: top;
+        vertical-align: center;
     }
     nav ul {
         list-style-type: none;
