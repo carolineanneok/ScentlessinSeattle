@@ -37,11 +37,13 @@
       width: 1000px;
   }
   
-nav {
-width: 960px;
-padding: 5px;
-margin: 0 auto;
-}
+  nav {
+    width: 960px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    margin: 0 auto;
+    }
   nav ul{
     float:center;
     display:center;
