@@ -13,7 +13,14 @@
 
 .img {
   margin: 0 auto;
-}
+    border-radius: 60%;
+    border: 6px solid whitesmoke;
+      width: 415px;
+      height: 215px;
+      display: float center
+  }
+  
+
 
   html {
     height: 100%;
@@ -61,7 +68,9 @@ nav li{
   }
 
   p {
-    position:center
+    position:center;
+    color: black;
+    text-align: center
   }
 
   section {
@@ -79,11 +88,7 @@ nav li{
       list-style-type: none;
   }
   
-  img {
-      width: 415px;
-      height: 215px;
-      display: float center
-  }
+  
   h1 {
     font-family:Verdana;
     font-size: 30px;
@@ -99,8 +104,13 @@ nav li{
     font-size: 15px;
     color:black;
 } 
-  img {
-    border-radius: 60%;
-    border: 6px solid whitesmoke;
+  
+
+  .container{
+    width: 20px;
+    height:50px;
+    background: none;
+    border:whitesmoke;
+    cursor:none;
   }
  

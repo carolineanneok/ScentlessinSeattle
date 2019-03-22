@@ -10,3 +10,32 @@
  .link {
    cursor:url("../cursors/link.cur"),pointer;
  }
+
+How to add a customPointer
+ 
+ html
+ <body>
+ <div id="container"class = "container">
+ <img src="resources/car.png" id="customPointer" width="50" style="position:absolute;"/>
+ </div>
+
+CSS
+ .container{
+   width:800px;
+   height:500px;
+   background:#ccc;
+   border:4px solid #333;
+   cursor:none;
+ }
+
+Javascript
+<script type="text/javascript">
+var cont = document.getElementbyId('container');
+cont.onmousemove=applyCustomPointer;
+
+var customPointer = document.getElementbyId('customPointer');
+
+function applyCustomPointer( event) {
+  customPointer.style.left=event.clientx -(customPointer.offsetWidth/2) + 'px';
+  customPointer.style.top =event.clienty -(customPointer.offsetHeight/2)+ 'px';
+}
