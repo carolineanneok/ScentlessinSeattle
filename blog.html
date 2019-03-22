@@ -7,8 +7,10 @@
         <link ref ="index.html">
     </head>
     <body>
+        <div>
             <header>Scentless In Seattle</header>
-            <button> Facebook <a href="https://www.facebook.com/ScentlessinSeattle/"> </a> </button>
+            <a href="https://www.facebook.com/ScentlessinSeattle/"><button type="button">Find Us On Facebook</button></a>
+           </div>
             <nav>
             <ul>
                <li><a href="index.html">About</a></li>
@@ -19,17 +21,34 @@
              </ul>
             </nav>  
              
-               
-            <section>
-                <h1>A Tour Guide of Seattle for Those with Environmental Sensitivies.</h1>
-                <h2>An Online Resources to Improve Your Social Experiences in the Emerald City .</h2>          
-                <article>
-                        <nav>
-                         
-                    </nav>
-                </article>
-             
-            </section>
+            <p id=contact>For Personalized Tips or Inquiries just send a note!</p>        
+              <form id="newInquiry">
+                <fieldset>
+                 <div>
+                    <div class="forms">
+                      <label for="name"> Name: </label>
+                      <input name="name" type="text" required >
+                    </div>
+                    <div class="forms">
+                      <label> E-mail Address </label>
+                      <input name="email" type="text"  required>
+                    </div>
+                    <div class="forms"></div>
+                      <label> Message: </label>
+                      <textarea name="Message" id="comments" type="text"  required></textarea>
+                  </div>
+                 <button id="locSubmit" type="submit" class="commentSub">Submit</button>
+
+               </fieldset>
+             </form>
+            </content>
+        </body>
+      </html>
+
+
+
+
+
 
 
                 <script>"style.js"</script>
