@@ -2,13 +2,13 @@
 var clickCounter = 0;
 var clicks = document.createElement('button');
 
-var click = allimg[i].clicks;
+var click = allbutton[i].clicks;
 
-var clickArray = [];
+   var clickArray = [];
 
 function facebookClicks() {
-    for (var i = 0; i < allimg.length; i++) {
-      clickArray.push(allimg[i].clicks);
+    for (var i = 0; i < allbutton.length; i++) {
+      clickArray.push(allbutton[i].clicks);
     }
-
-    
+}
+     
