@@ -3,9 +3,25 @@
     text-align: center ;
   } */
   
-  .custom {
-    cursor: url(images/my-cursor.png), auto;
+  .clearfix {
+    clear: both;
   }
+  #holder {
+    text-align: center;
+    margin:0 auto;
+  }
+  
+  .img {
+    margin: 0 auto;
+      border-radius: 60%;
+      border: 6px solid whitesmoke;
+        width: 415px;
+        height: 215px;
+        display: float center
+    }
+    
+  
+  
     html {
       height: 100%;
       background-color: #C0F3E8;
@@ -16,34 +32,49 @@
        background-repeat: no-repeat;
        background-size: cover;
        display: center;
+       margin:0 auto
     }
-
+  
     header {
         background-color: #56C9FE;
-        padding:10px;
-        padding-left: 30px;
-        border: 15px double #f0efe3;
+        padding:5px;
+        padding-left: 5px;
+        border: 10px  rgb(26, 23, 23);
         font-size:25px ;
         font-style: italic; 
         font-stretch: expanded;
-        display: block;
-        width: 500px;
+        display: center;
+        width: 1000px;
     }
-    nav {
-      
-        background-color:rgb(213, 227, 248);
-        width:125px;
-        display: inline-block;
-        vertical-align: center;
-    }
-    nav ul {
-        list-style-type: none;
-    }
+    
+  nav {
+  width: 960px;
+  padding: 5px;
+  margin: 0 auto;
+  }
+    nav ul{
+      float:center;
+      display:center;
+  }
+  
+  nav li{
+    display: center;
+    padding-right: 10px;
+  }
     a {
         color: black;
+        text-align: center
+    
     }
+  
+    p {
+      position:center;
+      color: black;
+      text-align: center
+    }
+  
     section {
-        width: 516px;
+        width: 960px;
         display: inline-block;
     }
     aside {
@@ -51,24 +82,34 @@
       display: inline-block;
       vertical-align: top;
       background-color:white;
-      font-size: 20px;
+      font-size: 10px;
     }
     aside ul {
         list-style-type: none;
     }
     
-    img {
-        width: 415px;
-        height: 215px;
-    }
+    
+    h1 {
+      font-family:Verdana;
+      font-size: 30px;
+      font-weight: bold;
+      color: black;
+      text-align: center;
+      }
     h2 {
-        font-size: 30px;
-        color:#4F3559;
+        font-size: 20px;
+        color:black;
     }
-    footer {
-        width: 790px;
-        background-color:whitesmoke;
-        text-align:center;
-        padding:5px;
-        display: center;
+    h3 {
+      font-size: 15px;
+      color:black;
+  } 
+    
+  
+    .container{
+      width: 20px;
+      height:50px;
+      background: none;
+      border:whitesmoke;
+      cursor:none;
     }

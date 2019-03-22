@@ -1,43 +1,56 @@
 <html>
     <head>
+        <meta charset="utf-8">
         <title>Scentless In Seattle</title>
         <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="blog.css">
+        <link rel="stylesheet" href="style.css">
+        <link ref ="index.html">
     </head>
-
-        <body>
-           
-            <header>
-            <h1>Scentless In Seattle</h1>
-            </header>
+    <body>
+        <div>
+            <header>Scentless In Seattle</header>
+            <a href="https://www.facebook.com/ScentlessinSeattle/"><button type="button">Find Us On Facebook</button></a>
+           </div>
             <nav>
-                    <li><a href="index.html">About Scentless</a></li>
-                    <li><a href="where.html">Where to go in Seattle</a></li>
-                    <li><a href="music.html"></a>Music Venues</a></li></ul>
-                    <li><a href="blog.html"></a>Blog</a></li>
-                    <li><a href="help.html"></a>Resources and Information</a></li></ul>
-                               <nav>
+            <ul>
+               <li><a href="index.html">About</a></li>
+               <li><a href="where.html">Places</a></li>
+               <li><a href="music.html">Music Venues</a></li>
+               <li><a href="blog.html">Blog</a></li>
+               <li><a href="facts.html">Resources</a></li>
+             </ul>
+            </nav>  
+             
+            <p id=contact>For Personalized Tips or Inquiries just send a note!</p>        
+              <form id="newInquiry">
+                <fieldset>
+                 <div>
+                    <div class="forms">
+                      <label for="name"> Name: </label>
+                      <input name="name" type="text" required >
+                    </div>
+                    <div class="forms">
+                      <label> E-mail Address </label>
+                      <input name="email" type="text"  required>
+                    </div>
+                    <div class="forms"></div>
+                      <label> Message: </label>
+                      <textarea name="Message" id="comments" type="text"  required></textarea>
+                  </div>
+                 <button id="locSubmit" type="submit" class="commentSub">Submit</button>
 
-            </nav>       
-            <section>
-                <h2>A Tour Guide of Seattle for Those with Environmental Sensitivies.</h2>
-                <p>Do you have environmental sensitivities? This is a resource to help you navigate Seattle;s environment.          
-                </p>             
-                <article>
-                        <h3> H3 <div id= "holder">
-                            <img class= "product" id="productA" src="" alt="" title="" width="400px" height="400px"/>
-                            <img class="product" id="productB" src="" alt="" title="" width="400px" height="400px"/>
-                            <img class="product" id="productC" src="" alt="" title="" width="400px" height="400px"/>
-                        </div>
-                        </h3>    
-        
-                </article>
-            </section>
-            <footer>
-
-            </footer>
-            <script src="app.js"></script>
+               </fieldset>
+             </form>
+             <script>"style.js"</script>
+            </content>
         </body>
-        
-</html>
+      </html>
 
+
+
+
+
+
+
+               
+      

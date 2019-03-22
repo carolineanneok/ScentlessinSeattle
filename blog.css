@@ -1,50 +1,81 @@
-
 *{
     text-align: center ;
   } */
   
-    
-    
-    
-    
+  #holder {
+    text-align: center;
+    margin:0 auto;
+  }
+  
+  holder {
+    z-index: 2;
+  }
+  
+  .img {
+    margin: 0 auto;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
     html {
       height: 100%;
       background-color: #C0F3E8;
     }
     body {
        height: 100%;
-       background: url("img/kerrypark2.jpg");
+       background: url("img/kerrypark.jpg");
        background-repeat: no-repeat;
        background-size: cover;
        display: center;
+       margin:0 auto
     }
-
+  
     header {
         background-color: #56C9FE;
-        padding:10px;
-        padding-left: 30px;
-        border: 15px double #fff00f;
+        padding:5px;
+        border: 10px  rgb(26, 23, 23);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size:25px ;
         font-style: italic; 
-        font-stretch: expanded;
-        display: block;
+        text-align: center;
+        display:left;
         width: 500px;
     }
+    
     nav {
+      width: 960px;
+      padding: 5px;
+      margin: 0 auto;
+      }
+        nav ul{
+          float:center;
+          display:center;
+      }
       
-        background-color:#F2C9FE;
-        width:125px;
-        display: inline-block;
-        vertical-align: top;
-    }
-    nav ul {
-        list-style-type: none;
-    }
+      nav li{
+        display: center;
+        padding-right: 10px;
+      }
+  
+  div {
+    margin:0 auto;
+  }
     a {
         color: black;
+        text-align: center
+    
     }
+    
+    p {
+      position:center
+    }
+  
     section {
-        width: 516px;
+        width: 960px;
         display: inline-block;
     }
     aside {
@@ -52,7 +83,7 @@
       display: inline-block;
       vertical-align: top;
       background-color:white;
-      font-size: 20px;
+      font-size: 10px;
     }
     aside ul {
         list-style-type: none;
@@ -61,15 +92,48 @@
     img {
         width: 415px;
         height: 215px;
+        display: float center
     }
+    h1 {
+      font-family:Verdana;
+      font-size: 30px;
+      font-weight: bold;
+      color: black;
+      text-align: center;
+      }
     h2 {
-        font-size: 30px;
-        color:#4F3559;
+        font-size: 20px;
+        color:black;
     }
-    footer {
-        width: 790px;
-        background-color:whitesmoke;
-        text-align:center;
-        padding:5px;
-        display: center;
+    h3 {
+      font-size: 15px;
+      color:black;
     }
+  
+      .forms {
+        display:center; 
+        margin-bottom:2vw;
+      }
+  
+      .forms input{
+        position: absolute;
+        left: 20vw;
+        width: 20vw;
+      }
+      #comments{
+        position: absolute;
+        left: 20vw;
+        height: 6vw;
+        width: 40vw;
+        overflow-y: scroll;
+        margin-bottom: 5vw;
+      }
+      .commentSub{
+        display: block;
+        margin-top: 10vw;
+      }
+    img {
+      border-radius: 60%;
+      border: 6px solid whitesmoke;
+    }
+   
