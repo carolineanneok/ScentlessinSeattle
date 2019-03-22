@@ -79,10 +79,13 @@
   }
   
   img {
-      width: 415px;
-      height: 215px;
-      display: float center
-  }
+      width: 100px;
+      height: 115px;
+      display: float center; 
+        border-radius: 60%;
+        border: 6px solid whitesmoke;
+      }
+ 
   h1 {
     font-family:Verdana;
     font-size: 30px;
@@ -98,8 +101,5 @@
     font-size: 15px;
     color:black;
 } 
-  img {
-    border-radius: 60%;
-    border: 6px solid whitesmoke;
-  }
+ 
  
