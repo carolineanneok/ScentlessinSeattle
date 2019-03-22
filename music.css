@@ -2,22 +2,16 @@
 *{
   text-align: center ;
 } */
+
 #holder {
   text-align: center;
+  margin:0 auto;
 }
 
-.img{
+.img {
   margin: 0 auto;
 }
-.custom {
-  cursor: url(img/cursorBee.png), auto;
-} 
-#myElement {
-  cursor: url('${img/cursorBee}/cursorBee.jpg') 
-; 
 
-} 
-  
   html {
     height: 100%;
     background-color: #C0F3E8;
@@ -39,8 +33,8 @@
       font-size:25px ;
       font-style: italic; 
       font-stretch: expanded;
-      display: fixed;
-      width: 1600px;
+      display: center;
+      width: 1000px;
   }
   
 nav {
@@ -49,8 +43,8 @@ padding: 5px;
 margin: 0 auto;
 }
   nav ul{
-    float:right;
-    display:inline-block;
+    float:center;
+    display:center;
 }
 
 
@@ -90,17 +84,17 @@ nav li{
   }
   h1 {
     font-family:Verdana;
-    font-size: 75px;
+    font-size: 30px;
     font-weight: bold;
     color: black;
     text-align: center;
     }
   h2 {
-      font-size: 40px;
+      font-size: 20px;
       color:black;
   }
   h3 {
-    font-size: 30px;
+    font-size: 15px;
     color:black;
 } 
   img {
@@ -108,5 +102,3 @@ nav li{
     border: 6px solid whitesmoke;
   }
  
-
-  
