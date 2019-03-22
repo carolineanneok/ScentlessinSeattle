@@ -1,26 +1,27 @@
+
 *{
     text-align: center ;
   } */
   
+  .clearfix {
+    clear: both;
+  }
   #holder {
     text-align: center;
     margin:0 auto;
   }
   
-  holder {
-    z-index: 2;
-  }
-  
   .img {
     margin: 0 auto;
-  }
+      border-radius: 60%;
+      border: 6px solid whitesmoke;
+        width: 415px;
+        height: 215px;
+        display: float center
+    }
+    
   
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-  }
+  
     html {
       height: 100%;
       background-color: #C0F3E8;
@@ -37,41 +38,39 @@
     header {
         background-color: #56C9FE;
         padding:5px;
+        padding-left: 5px;
         border: 10px  rgb(26, 23, 23);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size:25px ;
         font-style: italic; 
-        text-align: center;
-        display:left;
-        width: 500px;
+        font-stretch: expanded;
+        display: center;
+        width: 1000px;
     }
     
-    nav {
-      width: 960px;
-      padding: 5px;
-      margin: 0 auto;
-      }
-        nav ul{
-          float:center;
-          display:center;
-      }
-      
-      nav li{
-        display: center;
-        padding-right: 10px;
-      }
+  nav {
+  width: 960px;
+  padding: 5px;
+  margin: 0 auto;
+  }
+    nav ul{
+      float:center;
+      display:center;
+  }
   
-  div {
-    margin:0 auto;
+  nav li{
+    display: center;
+    padding-right: 10px;
   }
     a {
         color: black;
         text-align: center
     
     }
-    
+  
     p {
-      position:center
+      position:center;
+      color: black;
+      text-align: center
     }
   
     section {
@@ -89,11 +88,7 @@
         list-style-type: none;
     }
     
-    img {
-        width: 415px;
-        height: 215px;
-        display: float center
-    }
+    
     h1 {
       font-family:Verdana;
       font-size: 30px;
@@ -108,32 +103,13 @@
     h3 {
       font-size: 15px;
       color:black;
-    }
+  } 
+    
   
-      .forms {
-        display:center; 
-        margin-bottom:2vw;
-      }
-  
-      .forms input{
-        position: absolute;
-        left: 20vw;
-        width: 20vw;
-      }
-      #comments{
-        position: absolute;
-        left: 20vw;
-        height: 6vw;
-        width: 40vw;
-        overflow-y: scroll;
-        margin-bottom: 5vw;
-      }
-      .commentSub{
-        display: block;
-        margin-top: 10vw;
-      }
-    img {
-      border-radius: 60%;
-      border: 6px solid whitesmoke;
+    .container{
+      width: 20px;
+      height:50px;
+      background: none;
+      border:whitesmoke;
+      cursor:none;
     }
-   
