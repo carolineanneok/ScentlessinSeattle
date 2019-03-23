@@ -3,11 +3,6 @@
   text-align: center ;
 } */
 
-#holder {
-  text-align: center;
-  margin:0 auto;
-}
-
 .img {
   margin: 0 auto;
 }
@@ -34,7 +29,7 @@
       font-style: italic; 
       font-stretch: expanded;
       display: center;
-      width: 1000px;
+      width: 100%;
   }
   
   nav {
@@ -64,10 +59,7 @@ nav li{
     position:center
   }
 
-  section {
-      width: 960px;
-      display: inline-block;
-  }
+ 
   aside {
     width: 125px;
     display: inline-block;
@@ -80,27 +72,63 @@ nav li{
   }
   
   img {
-      width: 415px;
-      height: 215px;
-      display: float center
+      width: 400px;
+      height: 400px;
+      display: float center;
   }
   h1 {
     font-family:Verdana;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     color: black;
     text-align: center;
+    display: center;
     }
   h2 {
+    font-family:Verdana;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    display: center;
+    text-align: center;
+    }
+
+    h2 {
+      font-family:Verdana;
       font-size: 20px;
-      color:black;
-  }
-  h3 {
-    font-size: 15px;
-    color:black;
-} 
+      font-weight: bold;
+      color: black;
+      display: center;
+      text-align: center;
+      }
+
   img {
     border-radius: 60%;
     border: 6px solid whitesmoke;
   }
- 
+
+ div {
+  float: left;
+  width: 0 auto;
+  padding-bottom: 1px
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33%;
+  padding-bottom: 1px;
+}
+/* Clear floats after image containers */
+.row::after {
+  content: "column";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+
+
+

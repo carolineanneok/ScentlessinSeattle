@@ -16,21 +16,12 @@
 }
 
 
-div img{
-  display: block;
-  margin: auto;
-  width:100%;
-  height:auto;
-  z-index: 5;
-}
-.imgDiv{
-  display: inline-block;
-  margin-left: 5vw;
-  margin-top: 5vw;
-  height: 30vw;
-  width: 20vw;
-  vertical-align: middle;
-  text-align: center; 
+*{
+  text-align: center ;
+} */
+
+.img {
+  margin: 0 auto;
 }
 
   html {
@@ -55,20 +46,21 @@ div img{
       font-style: italic; 
       font-stretch: expanded;
       display: center;
-      width: 1000px;
+      width: 100%;
   }
   
-nav {
-width: 960px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 20px;
-padding: 5px;
-margin: 0 auto;
-}
+  nav {
+    width: 960px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    margin: 0 auto;
+    }
   nav ul{
     float:center;
     display:center;
 }
+
 
 nav li{
   display: center;
@@ -84,11 +76,7 @@ nav li{
     position:center
   }
 
-
-  section {
-      width: 960px;
-      display: inline-block;
-  }
+ 
   aside {
     width: 125px;
     display: inline-block;
@@ -101,29 +89,59 @@ nav li{
   }
   
   img {
-      width: 200px;
-      height: 200px;
-      display: float center
+      width: 400px;
+      height: 400px;
+      display: float center;
   }
   h1 {
     font-family:Verdana;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     color: black;
     text-align: center;
+    display: center;
     }
   h2 {
+    font-family:Verdana;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    display: center;
+    text-align: center;
+    }
+
+    h2 {
+      font-family:Verdana;
       font-size: 20px;
-      color:black;
-  }
-  h3 {
-    font-size: 15px;
-    color:black;
-} 
+      font-weight: bold;
+      color: black;
+      display: center;
+      text-align: center;
+      }
+
   img {
     border-radius: 60%;
     border: 6px solid whitesmoke;
   }
+
+ div {
+  float: left;
+  width: 0 auto;
+  padding-bottom: 1px
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33%;
+  padding-bottom: 1px;
+}
+/* Clear floats after image containers */
+.row::after {
+  content: "column";
+  clear: both;
+  display: table;
+}
+
   button{
   
     align-content: center;
