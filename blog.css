@@ -20,36 +20,39 @@
      display: center;
      margin:0 auto
   }
-
   header {
     background-color: #56C9FE;
-    padding:5px;
-    padding-left: 5px;
+    padding:10px;
     border: 10px  rgb(26, 23, 23);
-    font-size:25px ;
+    font-size:30px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic; 
     font-stretch: expanded;
     display: center;
-    width: 0 auto;
-}
-  
-  nav {
-    width: 960px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    padding: 5px;
-    margin: 0 auto;
-    display:center;
-    }
-  nav ul{
-    display:center;
-    padding: 5px;
+    width: 100%;
 }
 
+nav {
+  width: 980px;
+  padding: 10px;
+  margin: 0 auto;
+  }
+nav ul{
+  display:block;
+  font-size: 20px;
+  padding: 10px 24px;
+  display: inline-block;
+  background-color: #e7e7e7; color: black;
+  border-radius: 10px;
+  align-content: center;
+  
+}
 
 nav li{
-  display: center;
-  padding: 5px;
+display: inline-block;
+padding-right: 10px;
+font-family: Verdana, Geneva, Tahoma, sans-serif
+
 }
   a {
       color: black;
