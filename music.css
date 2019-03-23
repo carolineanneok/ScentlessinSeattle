@@ -57,25 +57,16 @@ font-family: Verdana, Geneva, Tahoma, sans-serif
   a {
       color: black;
       text-align: center
-  
   }
 
   p {
-    position:center
+    position:inline-block;
+    padding:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    
   }
 
- 
-  aside {
-    width: 125px;
-    display: inline-block;
-    vertical-align: top;
-    background-color:white;
-    font-size: 10px;
-  }
-  aside ul {
-      list-style-type: none;
-  }
-  
   img {
       width: 400px;
       height: 400px;
@@ -83,28 +74,31 @@ font-family: Verdana, Geneva, Tahoma, sans-serif
   }
   h1 {
     font-family:Verdana;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     color: black;
     text-align: center;
     display: center;
+    padding: 10px;
     }
   h2 {
     font-family:Verdana;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
-    color: black;
-    display: center;
+    color: whitesmoke;
+    display:left;
     text-align: center;
+    padding:40px;
     }
 
-    h2 {
+    h3 {
       font-family:Verdana;
-      font-size: 20px;
+      font-size: 30px;
       font-weight: bold;
-      color: black;
-      display: center;
+      color:whitesmoke;
+      display:center;
       text-align: center;
+      padding:40px;
       }
 
   img {
@@ -113,9 +107,9 @@ font-family: Verdana, Geneva, Tahoma, sans-serif
   }
 
  div {
-  float: left;
+  float: inline-block;
   width: 0 auto;
-  padding-bottom: 1px
+  padding: 1px
 }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {

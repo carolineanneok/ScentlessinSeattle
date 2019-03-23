@@ -25,7 +25,7 @@
      background: url("img/kerrypark.jpg");
      background-repeat: no-repeat;
      background-size: cover;
-     display: center;
+     display: inline-block;
      margin:0 auto
   }
 
@@ -37,7 +37,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic; 
     font-stretch: expanded;
-    display: center;
+    display:inline-block;
     width: 100%;
 }
 
@@ -70,42 +70,37 @@ font-family: Verdana, Geneva, Tahoma, sans-serif
   }
 
   p {
-    position:center
+    position:center;
+    padding: 10px;
   }
-
+div{
+  padding:1px;
+  display: center;
+}
  
-  aside {
-    width: 125px;
-    display: inline-block;
-    vertical-align: top;
-    background-color:white;
-    font-size: 10px;
-  }
-  aside ul {
-      list-style-type: none;
-  }
-  
   img {
       width: 400px;
       height: 400px;
-      display: float center;
+      display: inline-block;
   }
   h1 {
     font-family:Verdana;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     color: black;
     text-align: center;
-    display: float;
+    display: inline-block;
+    padding: 10px;
     }
   h2 {
     font-family:Verdana;
     font-size: 25px;
     font-weight: bold;
     color: black;
-    display: float;
+    display: inline-block;
     text-align: center;
-    text-decoration-style: solid
+    text-decoration-style: solid;
+    padding: 10px;
 
     }
 
