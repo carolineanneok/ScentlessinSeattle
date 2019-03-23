@@ -66,8 +66,11 @@ font-family: Verdana, Geneva, Tahoma, sans-serif
     font-family:Verdana;
     font-weight: bold;
     color: black;
+    padding: 30px;
   }
-
+div{
+  padding:5px;
+}
   aside {
     width: 125px;
     display: inline-block;
@@ -90,12 +93,13 @@ font-family: Verdana, Geneva, Tahoma, sans-serif
     }
   
   button{
+    display: inline-block;
     align-content: center;
     border-radius: 20px;
   }
 
   .forms{
-    display:center; 
+    display:inline-block; 
     margin-bottom: 2vw;
   }
   .forms input{
