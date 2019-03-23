@@ -3,7 +3,26 @@
   text-align: center ;
 } */
 
+.clearfix {
+  clear: both;
+}
+#holder {
+  text-align: center;
+  margin:0 auto;
+}
 
+.img {
+  margin: 0 auto;
+}
+
+
+*{
+  text-align: center ;
+} */
+
+.img {
+  margin: 0 auto;
+}
 
   html {
     height: 100%;
@@ -27,7 +46,7 @@
       font-style: italic; 
       font-stretch: expanded;
       display: center;
-      width: 1000px;
+      width: 100%;
   }
   
   nav {
@@ -57,10 +76,7 @@ nav li{
     position:center
   }
 
-  section {
-      width: 960px;
-      display: inline-block;
-  }
+ 
   aside {
     width: 125px;
     display: inline-block;
@@ -83,23 +99,31 @@ nav li{
     font-weight: bold;
     color: black;
     text-align: center;
+    display: center;
     }
   h2 {
     font-family:Verdana;
     font-size: 20px;
     font-weight: bold;
     color: black;
+    display: center;
     text-align: center;
     }
 
-  h3 {
-    font-size: 40px;
-    color:black;
-} 
+    h2 {
+      font-family:Verdana;
+      font-size: 20px;
+      font-weight: bold;
+      color: black;
+      display: center;
+      text-align: center;
+      }
+
   img {
     border-radius: 60%;
     border: 6px solid whitesmoke;
   }
+
  div {
   float: left;
   width: 0 auto;
@@ -118,10 +142,8 @@ nav li{
   display: table;
 }
 
-
-
-
-
-
-
-
+  button{
+  
+    align-content: center;
+    border-radius: 15px;
+  }
