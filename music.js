@@ -47,5 +47,28 @@ for(var i=0; i< MuralNames.length;i++){
      img[random]=true;
  }   
 
+ ImgLeft.hidden = false;
+ ImgLeft.src = allViews[three[0]].filepath;
+ ImgLeft.alt = allViews[three[0]].name;
+ ImgLeft.title = allViews[three[0]].name;
+ past=three;
 
 
+ //add handle click event code here
+
+ function handleClick(event){
+
+
+
+
+
+
+
+
+
+
+
+
+
+showRandomMural();
+imgLeft.addEventListener('click',handleClick)
