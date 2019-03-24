@@ -13,6 +13,15 @@ function facebookClicks() {
       clickArray.push(allbutton[i].clicks);
    }
 
+
+
+
+
+
+
+
+
+
    //Save the facebook button click counts to local storage.
    //when the page reloads it will show previous counts
    //save the local storage code in the click counter function
