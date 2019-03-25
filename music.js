@@ -56,19 +56,44 @@ for(var i=0; i< MuralNames.length;i++){
 
  //add handle click event code here
 
- function handleClick(event){
+ 
+
+
+    function handleClick(event){
+        if(imgClicks <3){
+          var imgClicks = document.getElementById('img');
+        
+          for (var i=0; i<allProducts.length; i++){
+            if (event.target.title===allViews[i].name){
+            allViews[i].muralPics++;
+            views++;
+            }
+          }
+          allViews=[];
+          
+          for(var i = 0; i<allViews.length; i++){
+            allViews.push(allViews[i].muralPics);
+          }
+          var muralNamesStringified = JSON.stringify(muralNames);
+          localStorage.muralNamesLoc=muralNamesStringified;
+          var allmuralNamesStringified = JSON.stringify(allViews);
+          localStorage.allMuralNamesLoc=allViewsStringified;
+      
+          showRandomMural();
+          
+        }
 
 
 
-
-
-
-
-
-
-
-
-
+        if (imgClicks === 3){
+        var imgClickLeft = document.getElementById('img');
+        ImgLeftA.hidden=true;
+        holder.hidden=true;
+        ImgLefttA.src = '';
+        ImgLefttA.alt = '';
+        ImgLefttA.title = '';
+           }
+        }
 
 showRandomMural();
 imgLeft.addEventListener('click',handleClick)
