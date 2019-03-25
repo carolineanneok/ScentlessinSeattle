@@ -31,8 +31,9 @@
        background: url("img/kerrypark.jpg");
        background-repeat: no-repeat;
        background-size: cover;
-       display: center;
+       display: inline-block;
        margin:0 auto
+    
     }
   
     header {

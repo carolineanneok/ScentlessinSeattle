@@ -11,6 +11,15 @@
     height: 100%;
     background-color: #C0F3E8;
   }
+
+  button{
+    display: inline-block;
+    align-content: center;
+    border-radius: 20px;
+  }
+
+
+
   body {
      height: 100%;
      background: url("img/kerrypark.jpg");
